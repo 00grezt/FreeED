@@ -1,7 +1,7 @@
 proxies:
 # Proxy Seting dengan V2ray-Vmess-Loadbalance.
 - {
-  name: IDLB, 
+  name: "IDLB", 
   server: id-lb.sshkit.org, 
   port: 443, 
   type: vmess, 
@@ -17,7 +17,7 @@ proxies:
   headers: {Host: m.muscdn.com}}}
 # proxy setting dengan protokol V2ray-Vmess.
 - {
-  name: SG1, 
+  name: "SG1", 
   server: sg5-v2ray.sshkit.org, 
   port: 443, 
   type: vmess, 
@@ -31,7 +31,7 @@ proxies:
   ws-opts: {path: /sshkit/1322318524/6226fe57af578/, 
   headers: {Host: m.muscdn.com}}}
 - {
-  name: SG2, 
+  name: "SG2", 
   server: sg1-v2ray.sshkit.org, 
   port: 443, 
   type: vmess, 
